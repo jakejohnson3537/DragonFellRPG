@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Locations\game_background_2.png" />
+    <None Remove="Images\Locations\game_background_4.png" />
+    <None Remove="Images\Locations\TownGate.png" />
+    <None Remove="Image\Location\game_background_2.png" />
+    <None Remove="Image\Location\game_background_3.png" />
+    <None Remove="Image\Location\game_background_4.png" />
+    <None Remove="MushroomHome.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\Location\game_background_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Locations\game_background_2.png" />
+    <Resource Include="Images\Locations\game_background_4.png" />
+    <Resource Include="Images\Locations\TownGate.png" />
+    <Resource Include="Image\Location\game_background_2.png" />
+    <Resource Include="Image\Location\game_background_4.png" />
+    <Resource Include="MushroomHome.png" />
+  </ItemGroup>
+
+</Project>
